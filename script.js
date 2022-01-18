@@ -35,16 +35,20 @@ function generatePassword() {
       return;
     }
      
-    if (!window.confirm("Click OK to confirm using special characters")) {
+    if (!window.confirm("Click 'OK' to confirm using special characters")) {
+      window.alert("Invalid response, please try again & confirm");
       return;
     }
-     if (!window.confirm("Click OK to confirm using numeric characters")) {
+     if (!window.confirm("Click 'OK' to confirm using numeric characters")) {
+      window.alert("Invalid response, please try again & confirm")
        return;
      }
-    if (!window.confirm("Click Ok to confirm using lowercase characters")) {
+    if (!window.confirm("Click 'Ok' to confirm using lowercase characters")) {
+      window.alert("Invalid response, please try again & confirm")
       return;
     }
-    if (!window.confirm("Click Ok to confirm using uppercase characters")) {
+    if (!window.confirm("Click 'Ok' to confirm using uppercase characters")) {
+      window.alert("Invalid response, please try again & confirm")
       return;
     }
 
