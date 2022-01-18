@@ -34,7 +34,7 @@ function generatePassword() {
     }
    return retVal;
 }
-
+//loop the 2nd and third commands
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
