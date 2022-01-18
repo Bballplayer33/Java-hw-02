@@ -34,6 +34,11 @@ function generatePassword() {
       window.alert("Character value too high, please click Generate Password and try again");
       return;
     }
+    else if (userChoice = userChoice) {
+      !userChoice;
+      window.alert("Password length not selected, please try again");
+      return;
+    }
      
     if (!window.confirm("Click 'OK' to confirm using special characters")) {
       window.alert("Invalid response, please try again & confirm");
