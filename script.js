@@ -15,10 +15,12 @@ function generatePassword() {
   var length = userChoice
     charset = (values);
     retVal = "";
+    
 
     if (!userChoice) {
       return
     }
+
     for (var i = 0, n = charset.length; i < length; ++i){
       retVal += charset.charAt(Math.floor(Math.random() * n));
     }
@@ -32,9 +34,23 @@ function generatePassword() {
       window.alert("Character value too high, please click Generate Password and try again");
       return;
     }
+     
+    if (!window.confirm("Click OK to confirm using special characters")) {
+      return;
+    }
+     if (!window.confirm("Click OK to confirm using numeric characters")) {
+       return;
+     }
+    if (!window.confirm("Click Ok to confirm using lowercase characters")) {
+      return;
+    }
+    if (!window.confirm("Click Ok to confirm using uppercase characters")) {
+      return;
+    }
+
    return retVal;
 }
-//loop the 2nd and third commands
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
