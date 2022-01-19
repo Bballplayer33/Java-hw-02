@@ -5,5 +5,6 @@
   Creating functions and implementing them by user choices to generate a valid password. 
   
   ## Usage 
-  
+
+![alt text](screens/assignvalues.png)
   
