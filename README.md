@@ -7,4 +7,20 @@
   ## Usage 
 
 ![alt text](screens/assignvalues.png)
-  
+Assigned variables and made a string to use in the function
+
+![alt text](screens/identifyobjectives.png)
+Made a gameplan on how to get started on the problem. (approach)
+
+![alt text](screens/createParameters.png)
+
+
+![alt text](screens/createConfirm.png)
+
+
+![alt text](screens/confirmMessage.png)
+
+
+
+## Conclusion
+
