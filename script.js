@@ -3,13 +3,14 @@ var generateBtn = document.querySelector("#generate");
 //password values
 var values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+123456789";
 var password = "";
+var thewrongstuff = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+";
+//1. Identify parameters
 //  a. password length 8 - 128
 //  b. lowercase, uppercase, numbers, special characters
 //2. validate the input 
 //3.generate password based off criteria
 
 function generatePassword() {
-  var userChoice = ("0123456789")
   console.log(generatePassword)
   var userChoice = window.prompt("Enter desired password length", "8-128 characters");
   var length = userChoice;
@@ -33,12 +34,6 @@ function generatePassword() {
       window.alert("Character value too high, please click Generate Password and try again");
       return;
     }
-    
-    //else if (userChoice) {
-    //  !userChoice;
-     // window.alert("Password length not selected, please try again");
-    //  return;
-    //}
      
     if (!window.confirm("Click 'OK' to confirm using special characters")) {
       window.alert("Invalid response, please try again & confirm");
